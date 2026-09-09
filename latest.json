@@ -1,0 +1,8 @@
+{
+  "version": "8.1",
+  "packageVersion": "0.1.3-local.8.1-work",
+  "downloadUrl": "https://github.com/ResusPro/pieflow-releases/releases",
+  "standardDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases",
+  "fullDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases",
+  "notes": "Public release channel initialized. The first public binary release will use the new Standard + Full Offline packaging model."
+}
