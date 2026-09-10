@@ -1,8 +1,8 @@
 {
-  "version": "8.1",
-  "packageVersion": "0.1.3-local.8.1-work",
-  "downloadUrl": "https://github.com/ResusPro/pieflow-releases/releases",
-  "standardDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases",
-  "fullDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases",
-  "notes": "Public release channel initialized. The first public binary release will use the new Standard + Full Offline packaging model."
+  "version": "8.2",
+  "packageVersion": "0.1.3-local.8.2-work",
+  "downloadUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.2/PieFlow-v8.2-Standard-Setup.exe",
+  "standardDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.2/PieFlow-v8.2-Standard-Setup.exe",
+  "fullDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.2/PieFlow-v8.2-Full-Offline-Setup.exe",
+  "notes": "Standard is the normal update. Use Full Offline for a first installation when you want local STT without relying on an existing Python installation."
 }
