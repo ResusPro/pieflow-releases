@@ -4,7 +4,7 @@
   "runtimeVersion": 2,
   "runtimeModel": "small.en",
   "downloadUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.3.1/PieFlow-v8.3.1-Full-Offline-Setup.exe",
-  "standardDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.3.1/PieFlow-v8.3.1-Full-Offline-Setup.exe",
+  "standardDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.3.1/PieFlow-v8.3.1-Standard-Setup.exe",
   "standardInstallerUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.3.1/PieFlow-v8.3.1-Standard-Setup.exe",
   "fullDownloadUrl": "https://github.com/ResusPro/pieflow-releases/releases/download/v8.3.1/PieFlow-v8.3.1-Full-Offline-Setup.exe",
   "notes": "v8.3.1 fixes spoken emoji conversion, Recent Activity copy, and UK medical spelling. Existing v8.3 Full users can install Standard."
