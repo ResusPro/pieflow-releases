@@ -1,13 +1,18 @@
 {
-  "version": "9.0",
-  "packageVersion": "0.1.3-local.9.0-work",
+  "version": "9.0.1",
+  "packageVersion": "0.1.3-local.9.0.1-work",
   "runtimeVersion": 2,
   "runtimeModel": "small.en",
   "privacyDefault": "offline",
+  "vocabularyDefault": "medical-all",
+  "upstreamSha": "d288edc3a9e70cb3f315e46b187f7718805ef373",
   "publicUrl": "https://MEHdictation.onlyhems.com",
-  "downloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0/MEHdictation-v9.0-Full-Offline-Setup.exe",
-  "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0/MEHdictation-v9.0-Standard-Setup.exe",
-  "standardInstallerUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0/MEHdictation-v9.0-Standard-Setup.exe",
-  "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0/MEHdictation-v9.0-Full-Offline-Setup.exe",
-  "notes": "MEHdictation v9.0: rebrand, full features without subscription, hard-offline work default, explicit Personal / Fast Cloud opt-in, clickable update check, UK medical spelling and small.en stt-runtime-v2."
+  "downloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Full-Offline-Setup.exe",
+  "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Standard-Setup.exe",
+  "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Full-Offline-Setup.exe",
+  "standardSize": 107311153,
+  "fullSize": 621316150,
+  "standardSha256": "55437cf510bf89240779c841feff0c65e622493863bcaaeddee25cc421689d15",
+  "fullSha256": "66139c8fdfb118fcb6116b808ced6769b49075a1b5d002a7917a9218d2429b4b",
+  "notes": "v9.0.1: local + Comprehensive Medical defaults, simpler settings, former Pro features removed, staged verified in-app updater, safer native input-hook startup and pinned upstream source."
 }
