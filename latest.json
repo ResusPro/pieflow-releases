@@ -1,18 +1,18 @@
 {
-  "version": "9.0.1",
-  "packageVersion": "0.1.3-local.9.0.1-work",
+  "version": "9.0.2",
+  "packageVersion": "0.1.3-local.9.0.2-work",
   "runtimeVersion": 2,
   "runtimeModel": "small.en",
   "privacyDefault": "offline",
   "vocabularyDefault": "medical-all",
   "upstreamSha": "d288edc3a9e70cb3f315e46b187f7718805ef373",
   "publicUrl": "https://MEHdictation.onlyhems.com",
-  "downloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Full-Offline-Setup.exe",
-  "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Standard-Setup.exe",
-  "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Full-Offline-Setup.exe",
-  "standardSize": 107311651,
-  "fullSize": 621316080,
-  "standardSha256": "d86019aeb1d0a9ba22d5e86d50e26f1bd471c72d8da1a86d5eaf4963141f3173",
-  "fullSha256": "7a0dea0fa8a5ffe779a003736b2b0405bd1e05e218be95ff8ac8789b0334920e",
-  "notes": "v9.0.1: local + Comprehensive Medical defaults, simpler settings, former Pro features removed, staged verified in-app updater, safer native input-hook startup and pinned upstream source."
+  "downloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Full-Offline-Setup.exe",
+  "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Standard-Setup.exe",
+  "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Full-Offline-Setup.exe",
+  "standardSize": 107312105,
+  "fullSize": 621316833,
+  "standardSha256": "4997c89b6ccb2acf58448699dfee12d784b11bdb4ed2c2a2c32995cf7c27d3f7",
+  "fullSha256": "7a2e87e881e9a7026e6c0bfe332dd32e906c3bf6fe9a266305b078855b053dfa",
+  "notes": "v9.0.2: automatic upgrade-safe shortcut migration; removes stale accelerator fields; preserves working native hook behaviour for upgraded users; replaces shortcut objects atomically."
 }
