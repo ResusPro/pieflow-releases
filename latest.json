@@ -1,18 +1,18 @@
 {
-  "version": "9.0.3",
-  "packageVersion": "0.1.3-local.9.0.3-work",
+  "version": "9.0.2",
+  "packageVersion": "0.1.3-local.9.0.2-work",
   "runtimeVersion": 2,
   "runtimeModel": "small.en",
   "privacyDefault": "offline",
   "vocabularyDefault": "medical-all",
   "upstreamSha": "d288edc3a9e70cb3f315e46b187f7718805ef373",
   "publicUrl": "https://MEHdictation.onlyhems.com",
-  "downloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.3/MEHdictation-v9.0.3-Full-Offline-Setup.exe",
-  "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.3/MEHdictation-v9.0.3-Standard-Setup.exe",
-  "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.3/MEHdictation-v9.0.3-Full-Offline-Setup.exe",
-  "standardSize": 107315063,
-  "fullSize": 621319590,
-  "standardSha256": "10df63817b1d3ef94de105f4e4aa1d9d73aad850576e8a40791249f35e5c8a64",
-  "fullSha256": "9f36f6f18ab255f2c1bdd05e9724f0876f870edf7288e0635f322aba62d0efd5",
-  "notes": "v9.0.3: reliable full MEHdictation dashboard wordmark; retains v9.0.2 shortcut migration and hotkey fixes."
+  "downloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Full-Offline-Setup.exe",
+  "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Standard-Setup.exe",
+  "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Full-Offline-Setup.exe",
+  "standardSize": 107315034,
+  "fullSize": 621320110,
+  "standardSha256": "7f38ebe5d24726d7d017d9b739c24ba515ce3209bc00f915858a140de0c69b76",
+  "fullSha256": "a97b07efe0e02061311dca70d78690ab2e2adf4aba19569fe1d14d03c15a1c39",
+  "notes": "v9.0.2: automatic upgrade-safe shortcut migration; removes stale accelerator fields; preserves working native hook behaviour for upgraded users; replaces shortcut objects atomically."
 }
