@@ -10,9 +10,9 @@
   "downloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Full-Offline-Setup.exe",
   "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Standard-Setup.exe",
   "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.1/MEHdictation-v9.0.1-Full-Offline-Setup.exe",
-  "standardSize": 107311651,
-  "fullSize": 621316266,
-  "standardSha256": "62cf016bbd7584277ef6bec2f8737db78bd974ceadbfb3c6e506dc3c1e5925d1",
-  "fullSha256": "dfa1c4d60c2e271d97228543c825f61a67e9f49ed81822c3568b694e5031331a",
+  "standardSize": 107311646,
+  "fullSize": 621316277,
+  "standardSha256": "038b949484162f8fdf5fdc5e9d02b3fdd2ec6a41f9b196a4025a99e3639eae41",
+  "fullSha256": "b3437d28096fbb3a85d6dddee381ff43800c39a5e347674ac9a1403b164ab2ff",
   "notes": "v9.0.1: local + Comprehensive Medical defaults, simpler settings, former Pro features removed, staged verified in-app updater, safer native input-hook startup and pinned upstream source."
 }
