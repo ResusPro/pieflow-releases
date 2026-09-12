@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7fbff">
+  <meta name="description" content="MEHdictation is local-first Windows dictation with UK clinical vocabulary. Work / Offline keeps dictated audio and text on your computer.">
+  <title>MEHdictation — local-first clinical dictation for Windows</title>
+  <style>
+    :root{--ink:#172033;--muted:#64748b;--blue:#2878c8;--cyan:#23b5d3;--navy:#15345a;--line:#dbe7f2;--card:#fff;--bg:#f7fbff;--green:#18794e;--shadow:0 18px 48px rgba(36,73,112,.12)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#fbfdff 0,#f4f9fe 55%,#fff 100%);color:var(--ink);line-height:1.55}
+    a{color:inherit} .wrap{width:min(1100px,calc(100% - 36px));margin:auto}.top{display:flex;align-items:center;justify-content:space-between;padding:22px 0}.brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:22px;letter-spacing:-.5px}.mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--cyan));display:grid;place-items:center;color:#fff;font-size:20px;box-shadow:0 8px 24px rgba(40,120,200,.22)}.brand span em{font-style:normal;color:var(--blue)}.toplinks{display:flex;gap:22px;color:var(--muted);font-size:14px}.toplinks a{text-decoration:none}.hero{display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center;padding:62px 0 70px}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #cbe0f4;background:#fff;padding:7px 11px;border-radius:999px;color:var(--navy);font-weight:700;font-size:13px}.dot{width:8px;height:8px;border-radius:50%;background:var(--green)}h1{font-size:clamp(42px,6vw,72px);line-height:1.02;letter-spacing:-3px;margin:20px 0 20px;max-width:780px}.lead{font-size:20px;color:#506078;max-width:680px;margin:0 0 28px}.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;border-radius:11px;padding:13px 18px;font-weight:750;border:1px solid var(--line);background:#fff}.btn.primary{background:var(--blue);color:#fff;border-color:var(--blue);box-shadow:0 10px 28px rgba(40,120,200,.22)}.versionline{margin-top:13px;font-size:13px;color:var(--muted)}.privacy{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:var(--shadow)}.privacy h2{font-size:20px;margin:0 0 8px}.mode{margin-top:16px;border-radius:14px;padding:16px;background:#f3f9ff;border:1px solid #d5e9fb}.mode strong{display:block}.mode small{display:block;color:#53657a;margin-top:5px}.mode.cloud{background:#fbfcfe;border-color:#e3e8ef}.checks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:0 0 68px}.check{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}.check b{display:block;margin-bottom:4px}.check span{color:var(--muted);font-size:14px}.section{padding:68px 0;border-top:1px solid #e4edf5}.section h2{font-size:34px;letter-spacing:-1.2px;margin:0 0 12px}.sectionlead{color:var(--muted);max-width:720px;margin:0 0 28px}.downloads{display:grid;grid-template-columns:1fr 1fr;gap:18px}.download{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}.download.recommended{border:2px solid #8bc5f1;position:relative}.badge{position:absolute;right:16px;top:16px;background:#e5f4ff;color:#17619b;font-size:12px;font-weight:800;padding:5px 8px;border-radius:999px}.download h3{font-size:22px;margin:0 0 7px}.download p{color:var(--muted);min-height:48px}.download .size{font-size:13px;color:var(--muted);margin:9px 0 16px}.how{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding:0 4px}.num{font-weight:900;color:var(--blue);font-size:13px;text-transform:uppercase;letter-spacing:.7px}.step h3{margin:6px 0 5px}.step p{color:var(--muted);margin:0}.note{margin-top:28px;background:#fff8e8;border:1px solid #f1dfad;border-radius:14px;padding:16px 18px;color:#6a5426}.footer{padding:34px 0 48px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer a{color:var(--muted)}code{background:#edf3f8;padding:2px 5px;border-radius:5px}
+    @media(max-width:800px){.toplinks{display:none}.hero{grid-template-columns:1fr;padding-top:40px}.checks,.downloads,.how{grid-template-columns:1fr}h1{letter-spacing:-2px}.download p{min-height:auto}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brand"><div class="mark">M</div><span><em>MEH</em>dictation</span></div>
+      <nav class="toplinks"><a href="#download">Download</a><a href="#privacy">Privacy</a><a href="#install">Install</a><a href="https://github.com/ResusPro/MEHdictation-releases/releases/latest">Release details</a></nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Windows · local-first · UK clinical vocabulary</div>
+          <h1>Clinical dictation without sending your work to the cloud.</h1>
+          <p class="lead">MEHdictation is fast Windows voice dictation built around a simple default: <strong>Work / Offline</strong>. Audio and dictated text stay on your computer, with Comprehensive Medical vocabulary tuned for UK clinical language.</p>
+          <div class="buttons">
+            <a class="btn primary" id="hero-full" href="https://github.com/ResusPro/MEHdictation-releases/releases/latest">Download for Windows</a>
+            <a class="btn" href="#download">Which installer?</a>
+          </div>
+          <div class="versionline" id="versionline">Loading latest release…</div>
+        </div>
+        <aside class="privacy" id="privacy">
+          <h2>Privacy is a mode, not a promise buried in settings.</h2>
+          <div class="mode"><strong>Work / Offline — default</strong><small>Local Whisper speech recognition. Dictated audio and text are not sent to cloud AI services.</small></div>
+          <div class="mode cloud"><strong>Personal / Fast Cloud — optional</strong><small>Explicit opt-in for personal devices. Cloud processing is only enabled after the user chooses it.</small></div>
+        </aside>
+      </section>
+
+      <section class="checks" aria-label="Key features">
+        <div class="check"><b>Comprehensive Medical by default</b><span>Clinical vocabulary bias with British medical spelling and terminology.</span></div>
+        <div class="check"><b>Works across Windows apps</b><span>Hold your shortcut, speak, release, and MEHdictation inserts the result at the cursor.</span></div>
+        <div class="check"><b>No subscription</b><span>MEHdictation is based on open-source software and retains the upstream MIT licence attribution.</span></div>
+      </section>
+
+      <section class="section" id="download">
+        <h2>Download MEHdictation</h2>
+        <p class="sectionlead">Most first-time users should choose Full Offline. The smaller Standard installer is intended for computers that already have the validated MEHdictation/PieFlow <code>stt-runtime-v2</code> local speech runtime.</p>
+        <div class="downloads">
+          <article class="download recommended">
+            <span class="badge">Recommended</span>
+            <h3>Full Offline</h3>
+            <p>For a new installation. Includes Python, faster-whisper and the validated <strong>small.en</strong> local speech model.</p>
+            <div class="size" id="full-size">Approximately 620 MB</div>
+            <a class="btn primary" id="full-download" href="https://github.com/ResusPro/MEHdictation-releases/releases/latest">Download Full Offline</a>
+          </article>
+          <article class="download">
+            <h3>Standard / Update</h3>
+            <p>For an existing v8.3+ / v9 installation that already has the persistent local speech runtime.</p>
+            <div class="size" id="standard-size">Approximately 107 MB</div>
+            <a class="btn" id="standard-download" href="https://github.com/ResusPro/MEHdictation-releases/releases/latest">Download Standard</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="install">
+        <h2>Install, choose your shortcut, dictate.</h2>
+        <p class="sectionlead">MEHdictation is currently an independent Windows build and may be treated cautiously by endpoint-security software because it is not yet code-signed. Do not bypass organisational security controls on a managed device.</p>
+        <div class="how">
+          <div class="step"><div class="num">01 · Install</div><h3>Use Full Offline for a new PC</h3><p>The local model is included, so Work / Offline does not need a cloud speech service.</p></div>
+          <div class="step"><div class="num">02 · Configure</div><h3>Pick a push-to-talk shortcut</h3><p>Keyboard shortcuts use the safer Windows/Electron route. Mouse-button triggers are available where needed.</p></div>
+          <div class="step"><div class="num">03 · Speak</div><h3>Keep Work / Offline for clinical use</h3><p>Comprehensive Medical vocabulary is selected by default and can be changed in Settings.</p></div>
+        </div>
+        <div class="note"><strong>Clinical safety:</strong> MEHdictation is a dictation aid, not a medical device or clinical decision-support system. Review dictated text before it becomes part of a patient record, particularly names, drugs, doses, numbers, negation and laterality.</div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>MEHdictation · Windows clinical dictation</span><span><a href="https://github.com/ResusPro/MEHdictation-releases/releases/latest">Release notes &amp; checksums</a> · <a href="LICENSE">Open-source licence</a></span></footer>
+  </div>
+
+  <script>
+  const manifestUrl = 'latest.json';
+  function mb(n){return n ? `${Math.round(n/1024/1024)} MB` : ''}
+  fetch(manifestUrl,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error();return r.json()}).then(m=>{
+    if(m.version) document.getElementById('versionline').textContent=`Latest: MEHdictation v${m.version} · Windows x64`;
+    if(m.fullSize) document.getElementById('full-size').textContent=`${mb(m.fullSize)} · includes local speech runtime`;
+    if(m.standardSize) document.getElementById('standard-size').textContent=`${mb(m.standardSize)} · reuses existing local speech runtime`;
+    if(/^https:\/\//.test(m.fullDownloadUrl||'')){
+      document.getElementById('full-download').href=m.fullDownloadUrl;
+      document.getElementById('hero-full').href=m.fullDownloadUrl;
+    }
+    if(/^https:\/\//.test(m.standardDownloadUrl||'')) document.getElementById('standard-download').href=m.standardDownloadUrl;
+  }).catch(()=>{document.getElementById('versionline').textContent='See the latest release for the current Windows installers.'});
+  </script>
+</body>
+</html>
