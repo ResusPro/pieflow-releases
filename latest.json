@@ -11,8 +11,8 @@
   "standardDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Standard-Setup.exe",
   "fullDownloadUrl": "https://github.com/ResusPro/MEHdictation-releases/releases/download/v9.0.2/MEHdictation-v9.0.2-Full-Offline-Setup.exe",
   "standardSize": 107315034,
-  "fullSize": 621320031,
-  "standardSha256": "4840f0057a89eec8f440c6e1210e45aa8f8ef9e04f9b892ae9c3ee3aee8f38f2",
-  "fullSha256": "3e6a7e52e97c2cb1374e364865c6c3f3cccef6e7f6faea33778029c65d94ed54",
+  "fullSize": 621319918,
+  "standardSha256": "118004114f2304c1d1247b0079c7a18332c6d594a44cfc97dcaef0774b18889e",
+  "fullSha256": "11696d9fe990c59cbaf83e4cbe93837d59281d13df69feda7121ead6823d774c",
   "notes": "v9.0.2: automatic upgrade-safe shortcut migration; removes stale accelerator fields; preserves working native hook behaviour for upgraded users; replaces shortcut objects atomically."
 }
